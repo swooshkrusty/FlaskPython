@@ -6,7 +6,7 @@ app = Flask (__name__)
 
 @app.route('/')
 def index():
-    return "Hello application @@@@"
+    return "Hello application!!!"
 
 @app.route('/david')
 def devid():
@@ -15,7 +15,7 @@ def devid():
 
 @app.route('/andrey')
 def andrey():
-    return "Hello, my dear Andrey! You are awesome!!!"
+    return "Hello, my dear Andrey! You are awesdwdwome!!!"
 
 
 @app.route('/maria')
